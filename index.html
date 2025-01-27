@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Game Project Title Goes Here</title>
+    <style>
+        /* Ensure the background covers the entire page */
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        #gameWorld {
+            display: block;
+            width: 100vw; /* Set canvas width to the full viewport width */
+            height: 100vh; /* Set canvas height to the full viewport height */
+            background: url('./namek.png') no-repeat center center;
+            background-size: cover; /* Ensures the image covers the canvas without repetition */
+            outline: none; /* Removes outline for focus on canvas */
+        }
+    </style>
+    <script type="text/javascript" src="./assetmanager.js"></script>
+    <script type="text/javascript" src="./timer.js"></script>
+    <script type="text/javascript" src="./gameengine.js"></script>
+    <script type="text/javascript" src="./util.js"></script>
+    <script type="text/javascript" src="./animator.js"></script>
+    <script type="text/javascript" src="./Goku.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</head>
+<body>
+    <canvas id="gameWorld" tabindex="0" autofocus></canvas>
+</body>
+</html>
